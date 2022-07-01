@@ -1,0 +1,141 @@
+body{
+    font-family: 'Glegoo', serif;
+     background-color: #245077;
+}
+
+.Search img{
+margin-left: 50px;
+margin-top: 20px;
+width: 500px;
+}
+
+.Search p {
+color: white;
+text-align:end;
+font-weight: 500;
+padding-right: 50px;
+}
+
+span{
+    color:black;
+}
+
+a{
+    color: gold;
+}
+
+.Search {
+
+    display: inline-flex;
+}
+
+.container{
+background-color: #4b4b4b ;
+height: 85px;
+width: 370px;
+border-radius: 8px;
+box-shadow:  3px 3px rgba(0, 0, 0, 0.849);
+margin-left: 260px;
+}
+
+.center{
+    padding-left: 80px;
+    padding-top: 20px;
+}
+#search {
+ width: 180px;
+ height: 40px;
+ text-align: center;
+ 
+ box-shadow: inset 3px 3px rgb(171, 171, 171);
+}
+
+Button {
+ background-color: #245077;
+ color: white;
+ font-weight: 700;
+ padding: 9px;
+ border-color: white ;
+ border-radius: 5px;
+ box-shadow: rgba(27, 27, 27, 0.888) 0px 0px 1px 1px, rgba(27, 27, 27, 0.705) 1px 1px 0px 0px ;
+ margin-left: 5px;
+}
+
+button:hover{
+    background-color: gold;
+    color:black;
+    border: none;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.849); ;
+}
+
+.Navbar{
+    width: 970px;
+    background-color: #457DAD;
+    margin-left: 120px;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow:  3px 3px rgba(0, 0, 0, 0.479);
+}
+
+
+.Navbar li{
+    display: inline;
+    color:white;
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 30px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.Navbar li:hover{
+font-weight: 800;
+color:gold;
+}
+
+
+
+.text {
+    display: flex;
+    text-align: center ;
+}
+
+.col{
+    margin-top: 20px;
+    padding-right: 10px;
+    width: 300px;
+    margin-left: 40px;
+}
+
+.col-2{
+    margin-top: 20px;
+    color:white;
+    width: 750px;
+
+}
+
+.col ul{
+    list-style-type: none;
+}
+
+.col a {
+    color:white;
+}
+
+
+.col-2 p span{
+    font-weight: 400;
+    color:gold;
+    font-size: 22px;
+}
+
+
+.col-2 p {
+font-size: 16px;
+}
+
+i {
+    color: gold;
+    font-size: 30px;
+    vertical-align:5px;
+}
